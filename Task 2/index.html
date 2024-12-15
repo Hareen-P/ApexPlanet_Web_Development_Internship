@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Web Development Showcase</h1>
+        <p>Explore various HTML, CSS, and JavaScript features!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#contact">Contact Form</a></li>
+            <li><a href="#responsive">Responsive Layout</a></li>
+            <li><a href="#todo">Dynamic To-Do List</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message here..." rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Responsive Layout Section -->
+        <section id="responsive">
+            <h2>Responsive Layout</h2>
+            <div class="responsive-container">
+                <header>My Website Header</header>
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+                <main>
+                    <section>Content Area 1</section>
+                    <section>Content Area 2</section>
+                    <section>Content Area 3</section>
+                </main>
+                <footer>Website Footer</footer>
+            </div>
+        </section>
+
+        <!-- Dynamic To-Do List Section -->
+        <section id="todo">
+            <h2>Dynamic To-Do List</h2>
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button id="addTask">Add Task</button>
+            <ul id="taskList"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Web Development Showcase</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
