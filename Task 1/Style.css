@@ -1,0 +1,70 @@
+/* General Styling */
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2f;
+    color: #e6e6e6;
+}
+
+/* Header Section */
+header {
+    background-color: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #007acc;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #007acc;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #4a4a6a;
+    padding: 15px;
+    background-color: #2c2c3e;
+    border-radius: 5px;
+}
+
+/* Links */
+a {
+    color: #00d1ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styling */
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005a99;
+}
+
+/* Footer */
+footer {
+    background-color: #0b3d91;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
