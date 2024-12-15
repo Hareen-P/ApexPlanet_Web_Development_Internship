@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Styling and JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Advanced Web Development Showcase</h1>
+        <p>Responsive Design, JavaScript Interactivity, and API Integration</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#responsive">Responsive Design</a></li>
+            <li><a href="#interactive">Interactive Quiz</a></li>
+            <li><a href="#api-fetch">API Data Fetching</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Responsive Design Section -->
+        <section id="responsive">
+            <h2>Responsive Design</h2>
+            <p>Explore the power of responsive layouts using Flexbox and CSS Grid.</p>
+            <div class="responsive-grid">
+                <div class="box">Flexbox Item 1</div>
+                <div class="box">Flexbox Item 2</div>
+                <div class="box">Grid Item 1</div>
+                <div class="box">Grid Item 2</div>
+            </div>
+        </section>
+
+        <!-- Interactive Quiz Section -->
+        <section id="interactive">
+            <h2>Interactive Quiz</h2>
+            <p>Test your knowledge with this dynamic quiz. Select the correct answer and track your score!</p>
+            <div id="quiz">
+                <p id="question">Loading question...</p>
+                <ul id="choices">
+                    <!-- Quiz options will be dynamically added here -->
+                </ul>
+                <button id="nextButton" disabled>Next</button>
+                <p id="scoreDisplay">Score: 0</p>
+            </div>
+        </section>
+
+        <!-- API Data Fetching Section -->
+        <section id="api-fetch">
+            <h2>API Data Fetching</h2>
+            <p>Fetch real-time data from a public API. Click below to get a random joke!</p>
+            <button id="fetchData">Get Random Joke</button>
+            <p id="apiResult"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Advanced Web Development Showcase</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

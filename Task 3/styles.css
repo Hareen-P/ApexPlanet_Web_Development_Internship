@@ -1,0 +1,121 @@
+/* General Styling */
+body {
+    body {
+        background: linear-gradient(120deg, #30159d, #cc02ff);
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+   
+    
+}
+
+/* Header Styling */
+header {
+    background-color: #6a00ff;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #222;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Grid */
+.responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.box {
+    background-color: #007BFF;
+    color: rgb(251, 251, 253);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    header {
+        font-size: 1.2em;
+    }
+
+    .box {
+        font-size: 0.9em;
+    }
+}
+
+/* Quiz Styling */
+#quiz {
+    text-align: center;
+}
+
+#choices li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+#choices li button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#choices li button:hover {
+    background-color: #0056b3;
+}
+
+/* API Section */
+#fetchData {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fetchData:hover {
+    background-color: #218838;
+}
