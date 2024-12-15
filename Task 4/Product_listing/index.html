@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Listing</h1>
+
+        
+        <div class="filter-sort-section">
+            <div class="filter">
+                <h3>Filter</h3>
+                <label for="category">Category:</label>
+                <select id="category" onchange="filterProducts()">
+                    <option value="all">All</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="books">Books</option>
+                </select>
+
+                <label for="price">Price Range:</label>
+                <input type="range" id="price" min="0" max="500" step="50" value="500" oninput="updatePriceLabel(this.value)" onchange="filterProducts()">
+                <span id="price-label">Up to $500</span>
+            </div>
+
+            <div class="sort">
+                <h3>Sort</h3>
+                <label for="sort">Sort By:</label>
+                <select id="sort" onchange="sortProducts()">
+                    <option value="none">None</option>
+                    <option value="low-to-high">Price: Low to High</option>
+                    <option value="high-to-low">Price: High to Low</option>
+                    <option value="rating">Rating</option>
+                </select>
+            </div>
+        </div>
+
+        
+        <div class="product-list" id="product-list">
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
